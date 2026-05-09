@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Naive Bayes classifier preview</title>
+  <desc id="desc">Placeholder code and probability interface for a classifier project.</desc>
+  <rect width="960" height="600" fill="#101219"/>
+  <path d="M0 80h960M0 160h960M0 240h960M0 320h960M0 400h960M0 480h960M120 0v600M240 0v600M360 0v600M480 0v600M600 0v600M720 0v600M840 0v600" stroke="#e7f1ff" stroke-opacity=".07"/>
+  <rect x="70" y="72" width="820" height="456" rx="8" fill="#151b29" stroke="#ffb454" stroke-opacity=".35"/>
+  <text x="104" y="128" fill="#5ee6c8" font-family="monospace" font-size="28">$ ./classify --model naive-bayes</text>
+  <text x="104" y="190" fill="#e7f1ff" fill-opacity=".8" font-family="monospace" font-size="24">tokens: ["probability", "prior", "feature"]</text>
+  <text x="104" y="248" fill="#ffb454" font-family="monospace" font-size="24">P(class | text) = P(text | class) * P(class)</text>
+  <rect x="104" y="306" width="596" height="22" fill="#5ee6c8" opacity=".75"/>
+  <rect x="104" y="354" width="422" height="22" fill="#ffb454" opacity=".75"/>
+  <rect x="104" y="402" width="260" height="22" fill="#e7f1ff" opacity=".45"/>
+  <text x="732" y="328" fill="#5ee6c8" font-family="monospace" font-size="22">0.91</text>
+  <text x="732" y="376" fill="#ffb454" font-family="monospace" font-size="22">0.64</text>
+  <text x="732" y="424" fill="#e7f1ff" fill-opacity=".65" font-family="monospace" font-size="22">0.38</text>
+</svg>

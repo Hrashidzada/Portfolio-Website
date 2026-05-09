@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamza Rashidzada | Portfolio</title>
+    <meta
+      name="description"
+      content="Interactive portfolio for Hamza Rashidzada, featuring software projects, technologies, and contact links."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scanline"></div>
+    <div class="grid-bg"></div>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Hamza Rashidzada home">
+        <span>HR</span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#technologies">SKILLS</a>
+        <a href="#links">LINKS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero panel-section">
+        <div class="hero-copy reveal visible">
+          <p class="command">BUILDING SOFTWARE WITH PURPOSE</p>
+          <h1>Hi, I'm <span id="typed-name"></span><span class="cursor"></span></h1>
+          <p class="identity">
+            <span>Aspiring Software Engineer</span>
+          </p>
+          <div class="intro-block">
+            
+            <p>
+              I’m a passionate developer who has always been drawn to coding and building things from the ground up. I’m currently focused on pursuing software engineering and exploring fields like machine learning to create impactful, real-world solutions.
+            </p>
+            </div>
+            <div class="hero-actions" aria-label="profile links">
+              <a href="https://github.com/Hrashidzada" target="_blank" rel="noreferrer">
+                <span>GH</span> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/hamza-rashidzada-a76157371/" target="_blank" rel="noreferrer">
+                <span>IN</span> LinkedIn
+              </a>
+              <a href="assets/Hamza_Rashidzada_Resume%20(7).pdf" target="_blank" rel="noreferrer">
+                <span>CV</span> Resume
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-rail reveal visible">
+          <figure class="portrait-card">
+            <img src="assets/headshot.png" alt="Placeholder portrait for Hamza" />
+            <figcaption>Hamza Rashidzada</figcaption>
+          </figure>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about section"></a>
+      </section>
+
+      <section id="about" class="panel-section about-section">
+        <div class="section-shell reveal">
+          <h2>About Me</h2>
+          <div class="about-grid">
+            <div class="copy-stack">
+              <p>
+                I grew up in Dix Hills on Long Island, New York, and I'm currently studying Computer Science at the University of Michigan in Ann Arbor.
+              </p>
+              <p>
+                I got into programming because I liked the idea of thinking of something and then just going and building it. That hasn't changed — I'm happiest when I'm deep in a problem, whether it's figuring out why a request is failing, writing a data pipeline that actually works, or getting an algorithm to pass every edge case.
+              </p>
+              <p>
+                Outside of school and code, I play a lot of pickleball, go out to eat way too often (always looking for a new sushi spot), and spend too much time reading about what's happening in tech and finance. 
+              </p>
+            </div>
+            <aside class="profile-terminal">
+              <p><span>Profile</span> snapshot</p>
+              <dl>
+                <div><dt>name</dt><dd>Hamza Rashidzada</dd></div>
+                <div><dt>focus</dt><dd>software engineering</dd></div>
+              </dl>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="technologies" class="panel-section tech-section">
+        <div class="section-shell reveal">
+          <h2>Skills</h2>
+          <div class="skills-showcase">
+            <article>
+              <h3>Programming Languages</h3>
+              <ul class="skill-pills">
+                <li><span>☕</span>Java</li>
+                <li><span>🐍</span>Python</li>
+                <li><span>JS</span>JavaScript</li>
+                <li><span>▣</span>HTML</li>
+                <li><span>▥</span>CSS</li>
+                <li><span>TS</span>TypeScript</li>
+                <li><span>SQL</span>SQL</li>
+                <li><span>R</span>R</li>
+                <li><span>C</span>C</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Frameworks & Libraries</h3>
+              <ul class="skill-pills">
+                <li><span>⚛</span>React</li>
+                <li><span>N</span>Next.js</li>
+                <li><span>⚛</span>React Native</li>
+                <li><span>◒</span>Flask</li>
+                <li><span>ex</span>Express.js</li>
+                <li><span>▥</span>Pandas</li>
+                <li><span>NP</span>NumPy</li>
+                <li><span>◎</span>Matplotlib</li>
+                <li><span>sk</span>scikit-learn</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Development Tools</h3>
+              <ul class="skill-pills">
+                <li><span>◆</span>MongoDB</li>
+                <li><span>▰</span>SQLite</li>
+                <li><span>⬢</span>Node.js</li>
+                <li><span>▲</span>Vercel</li>
+                <li><span>◇</span>Git</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="panel-section projects-section">
+        <div class="section-shell reveal">
+          <h2>Projects</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <img src="assets/project-naive-bayes.svg" alt="Naive Bayes classifier placeholder preview" />
+              <div class="project-body">
+                <h3>Piazza Topic Classifier</h3>
+                <p class="project-summary">
+                  A multi-class text classification system built from scratch in C++ that predicts the topic of forum posts using the Naive Bayes algorithm.
+                </p>
+                <h4>Description:</h4>
+                <ul class="project-description">
+                  <li>Implemented a full Naive Bayes classifier in C++17 from first principles, computing prior probabilities and word likelihoods using STL data structures without external ML frameworks.</li>
+                  <li>Built a complete training and inference pipeline, including CSV data ingestion, custom tokenization, vocabulary construction, and evaluation on labeled test datasets.</li>
+                  <li>Utilized log-probabilities to ensure numerical stability and prevent floating-point underflow when handling large vocabularies.</li>
+                  <li>Designed smoothing strategies for unseen words, incorporating fallback probabilities to maintain robust predictions across sparse data.</li>
+                  <li>Developed a command-line interface with training, prediction, and performance evaluation modes.</li>
+                </ul>
+                <div class="project-tech">
+                  <span>C++</span>
+                  <span>C++17</span>
+                  <span>Naive Bayes</span>
+                  <span>NLP</span>
+                  <span>STL</span>
+                  <span>CSV Parsing</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/Hrashidzada/naive-bayes-classifier" target="_blank" rel="noreferrer">More info →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/fitness.png" alt="Fitness tracker placeholder preview" />
+              <div class="project-body">
+                <h3>Fitness Tracker</h3>
+                <p class="project-summary">
+                  A full-stack fitness tracking web application that enables users to log meals and workouts, monitor daily nutrition, and visualize progress through interactive dashboards.
+                </p>
+                <h4>Description:</h4>
+                <ul class="project-description">
+                  <li>Developed a full-stack application using Python and Flask for the backend with HTML, CSS, and vanilla JavaScript on the frontend.</li>
+                  <li>Implemented RESTful API endpoints for authentication, data logging, progress tracking, and analytics.</li>
+                  <li>Built user authentication and session management with persistent login state for personalized fitness data.</li>
+                  <li>Designed a nutrition tracking system with SQLite and a curated dataset of foods to calculate calories and macronutrients.</li>
+                  <li>Implemented interactive Chart.js visualizations for calorie trends, macro breakdowns, and workout frequency.</li>
+                </ul>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>SQLite</span>
+                  <span>Chart.js</span>
+                  <span>JavaScript</span>
+                  <span>HTML/CSS</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/Hrashidzada/fitness-tracker" target="_blank" rel="noreferrer">More info →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/studylockss.png" alt="StudyLock placeholder preview" />
+              <div class="project-body">
+                <h3>StudyLock</h3>
+                <p class="project-summary">
+                  A native iOS productivity app that enforces focused study sessions by locking distracting apps behind a quiz-based unlock system.
+                </p>
+                <h4>Description:</h4>
+                <ul class="project-description">
+                  <li>Built a fully native iOS application using Swift and SwiftUI with ObservableObject state management.</li>
+                  <li>Integrated the Anthropic Claude API through a custom networking service to generate quiz questions from user-selected topics.</li>
+                  <li>Implemented fallback logic and question deduplication to keep quiz sessions reliable.</li>
+                  <li>Used Apple Screen Time APIs to shield and unshield selected apps during timed lockout sessions.</li>
+                  <li>Designed a modular architecture separating Views, Services, and Models, plus onboarding, quiz, and timer flows.</li>
+                </ul>
+                <div class="project-tech">
+                  <span>Swift</span>
+                  <span>SwiftUI</span>
+                  <span>iOS</span>
+                  <span>Claude API</span>
+                  <span>Screen Time APIs</span>
+                  <span>FamilyControls</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/Hrashidzada/StudyLock" target="_blank" rel="noreferrer">More info →</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="links" class="panel-section links-section">
+        <div class="section-shell reveal">
+          <h2>Links</h2>
+          <div class="link-console">
+            <a href="https://github.com/Hrashidzada" target="_blank" rel="noreferrer">
+              <span>github</span><b>github.com/Hrashidzada</b>
+            </a>
+            <a href="https://www.linkedin.com/in/hamza-rashidzada-a76157371/" target="_blank" rel="noreferrer">
+              <span>linkedin</span><b>https://www.linkedin.com/in/hamza-rashidzada-a76157371/</b>
+            </a>
+            <a href="assets/Hamza_Rashidzada_Resume%20(7).pdf" target="_blank" rel="noreferrer">
+              <span>resume</span><b>Hamza_Rashidzada_Resume.pdf</b>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="panel-section contact-section">
+        <div class="section-shell reveal">
+          <h2>Contact Me</h2>
+          <div class="contact-panel">
+            <p class="command">OPEN TO IDEAS, ROLES, AND COLLABORATION</p>
+            <a class="button-link" href="mailto:your.email@example.com">Hrashidzada28@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        Built by Hamza Rashidzada.
+        <a href="https://github.com/Hrashidzada" target="_blank" rel="noreferrer">View on GitHub</a>
+      </div>
+    </footer>
+
+    <a class="floating-contact" href="#contact" aria-label="Jump to contact">
+      <span>GH</span><span>IN</span><span>CV</span><b>Connect with me! →</b>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
