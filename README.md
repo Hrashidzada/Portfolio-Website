@@ -1,60 +1,69 @@
-# Hamza Rashidzada Portfolio
+# Hamza Rashidzada — Portfolio Website
 
-An interactive personal portfolio website for showcasing my background, skills, projects, resume, and contact links.
+An interactive personal portfolio website designed to showcase my projects, technical skills, and engineering experience in a clean, responsive, and visually engaging format.
 
-## Overview
+The site serves as a central hub for my work across full-stack development, systems programming, and mobile applications.
 
-This portfolio is built with plain HTML, CSS, and JavaScript. It features a dark, animated interface with a responsive layout, project showcase cards, scroll-based reveal effects, a skills section, and links to my GitHub, LinkedIn, and resume.
+---
 
-## Features
+## Key Features
 
-- Responsive portfolio homepage
-- Animated scroll reveal effects
-- Project cards with images, descriptions, technology tags, and links
-- Skills section grouped by programming languages, frameworks/libraries, and development tools
-- Resume link
-- GitHub and LinkedIn links
-- Contact section
+- **Responsive design**  
+  Fully responsive layout optimized for desktop and mobile devices.
 
-## Projects Included
+- **Interactive UI with animations**  
+  Scroll-based reveal effects and smooth transitions for improved user experience.
+
+- **Project showcase system**  
+  Dynamic project cards with descriptions, technology stacks, and external links.
+
+- **Skills organization**  
+  Structured breakdown of programming languages, frameworks, and developer tools.
+
+- **Integrated resume and social links**  
+  Direct access to resume, GitHub, and LinkedIn profiles.
+
+---
+
+## Featured Projects
 
 ### Piazza Topic Classifier
+A C++ implementation of a Naive Bayes text classifier that predicts forum post topics using probabilistic modeling. Built entirely from scratch without external machine learning libraries.
 
-A C++ Naive Bayes text classification project that predicts the topic of forum posts using probabilistic modeling.
+### FitTrack — Fitness Tracking App
+A full-stack web application built with Flask, SQLite, and JavaScript that allows users to log meals and workouts, track nutrition data, and visualize progress through interactive Chart.js dashboards.
 
-### Fitness Tracker
+### StudyLock — iOS Productivity App
+A SwiftUI-based mobile app that helps users stay focused by locking distracting apps behind quiz-based study sessions. Designed to combine behavioral reinforcement with active recall learning.
 
-A full-stack fitness tracking web app built with Flask, SQLite, JavaScript, and Chart.js for logging meals, workouts, and progress data.
+---
 
-### StudyLock
+## Tech Stack
 
-A SwiftUI iOS productivity app that helps users stay focused by locking distracting apps behind quiz-based study sessions.
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
+- HTML, CSS, JavaScript
 - C++
-- Python
-- Flask
-- SQLite
+- Python, Flask, SQLite
 - Chart.js
-- Swift
-- SwiftUI
+- Swift, SwiftUI
 
-## File Structure
+---
 
-```text
-.
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
-└── assets/
-    ├── headshot.png
-    ├── fitness.png
-    ├── studylockss.png
-    ├── project-naive-bayes.svg
-    └── resume.pdf
+## Project Structure
 
+The portfolio is built using a lightweight static structure for performance and simplicity:
+
+- HTML for content structure
+- CSS for styling and responsive layout
+- JavaScript for interactivity and animations
+- Asset-based organization for images and resume files
+
+---
+
+## Purpose
+
+This portfolio was built to present my projects in a professional, accessible format while demonstrating my ability to:
+
+- Build full-stack applications
+- Implement systems-level programming projects
+- Design mobile applications with modern UI frameworks
+- Communicate technical work clearly and effectively
